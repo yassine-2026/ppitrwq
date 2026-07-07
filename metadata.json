@@ -1,6 +1,6 @@
 {
-  "name": "زر التبرع",
-  "description": "تطبيق بسيط وحديث يحتوي على زر تبرع مركزي.",
+  "name": "شاشة انتظار",
+  "description": "صفحة انتظار بسيطة تظهر رسالة شكر بعد 5 ثوانٍ.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
