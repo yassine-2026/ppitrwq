@@ -6,7 +6,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 import { AdBanner } from './components/AdBanner';
-import { NativeBanner } from './components/NativeBanner';
 
 export default function App() {
   const [showMessage, setShowMessage] = useState(false);
@@ -93,11 +92,6 @@ export default function App() {
           {/* Main Middle Ad (300x250) */}
           <div className="my-4">
             <AdBanner adKey="6b1961f50ebbd3a5149b9d25b67a1a93" width={300} height={250} />
-          </div>
-
-          {/* Native Banner */}
-          <div className="w-full max-w-[400px] mt-4">
-            <NativeBanner />
           </div>
 
         </div>
